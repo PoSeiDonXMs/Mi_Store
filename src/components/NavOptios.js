@@ -5,7 +5,7 @@ import "../styles/NavOptios.css"
 
 
 
-const NavOptios = ( {miPhones,redmiPhones,tv,laptop,fitnessAndLifeStyle,home,audio,accessories}) => {
+function NavOptios  ( {miPhones,redmiPhones,tv,laptop,fitnessAndLifeStyle,home,audio,accessories})  {
 
    const [miPhoneToggle, setMiPhoneToggle] = useState(false);
    const [redmiPhoneToggle,setRedmiPhoneToggle] = useState(false);
